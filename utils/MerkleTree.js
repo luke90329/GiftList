@@ -45,7 +45,7 @@ class MerkleTree {
   }
 
   // private function
-  _getRoot(leaves = this.leaves) {
+  _getRoot(leaves) {
     if (leaves.length === 1) {
       return leaves[0];
     }
